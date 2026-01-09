@@ -8,7 +8,7 @@ Custom Docker image for running ComfyUI with Wan 2.1 video generation and SageAt
 - ComfyUI Manager
 - ComfyUI-WanVideoWrapper (Wan 2.1 support)
 - SageAttention + Triton
-- CUDA 12.4 + PyTorch 2.4
+- CUDA 12.8 + PyTorch 2.5.1
 
 ## RunPod Template Settings
 
