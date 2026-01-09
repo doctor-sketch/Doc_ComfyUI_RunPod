@@ -37,8 +37,11 @@ RUN pip install triton>=3.0.0 && \
 # Video processing
 RUN pip install imageio[ffmpeg] imageio-ffmpeg
 
-# Expose ComfyUI port
-EXPOSE 8188
+# JupyterLab
+RUN pip install jupyterlab
+
+# Expose ports
+EXPOSE 8188 8888
 
 # Start script
 COPY start.sh /start.sh
